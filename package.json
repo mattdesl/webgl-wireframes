@@ -1,0 +1,45 @@
+{
+  "name": "webgl-wireframes",
+  "version": "1.0.0",
+  "description": "Stylistic Wireframe Rendering in WebGL",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "dat.gui": "github:dataarts/dat.gui",
+    "glsl-noise": "0.0.0",
+    "glsl-pi": "^1.0.0",
+    "glslify": "^6.1.0",
+    "nice-color-palettes": "^2.0.0",
+    "three": "^0.87.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "budo": "^10.0.4",
+    "uglify-js": "^3.0.28"
+  },
+  "scripts": {
+    "start": "budo lib/index.js:bundle.js --live --dir app -- -t babelify -t glslify",
+    "build": "browserify lib/index.js -t babelify -t glslify | uglifyjs -m -c warnings=false > app/bundle.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/webgl-wireframes.git"
+  },
+  "semistandard": {
+    "globals": [
+      "THREE"
+    ]
+  },
+  "homepage": "https://github.com/mattdesl/webgl-wireframes",
+  "bugs": {
+    "url": "https://github.com/mattdesl/webgl-wireframes/issues"
+  }
+}

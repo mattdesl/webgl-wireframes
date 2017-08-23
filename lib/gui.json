@@ -1,0 +1,269 @@
+{
+  "preset": "Crosses",
+  "closed": false,
+  "remembered": {
+    "Sleek": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.01,
+        "backgroundHex": "#e3e3e3",
+        "fillHex": "#c5c5c5",
+        "strokeHex": "#202020",
+        "dashEnabled": true,
+        "dashAnimate": false,
+        "dashRepeats": 9,
+        "dashLength": 0.7000000000000001,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0.1,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.05,
+        "name": "Icosphere",
+        "edgeRemoval": false
+      }
+    },
+    "FunkyTorus": {
+      "0": {
+        "seeThrough": false,
+        "thickness": 0.02,
+        "backgroundHex": "#e8d5b7",
+        "fillHex": "#0e2430",
+        "strokeHex": "#fc3a51",
+        "dashEnabled": false,
+        "dashAnimate": false,
+        "dashRepeats": 1,
+        "dashLength": 0.8,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0,
+        "squeezeMax": 1,
+        "dualStroke": true,
+        "secondThickness": 0.05,
+        "name": "TorusKnot",
+        "edgeRemoval": true
+      }
+    },
+    "BlockyFade": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.01,
+        "backgroundHex": "#eff3cd",
+        "fillHex": "#b2d5ba",
+        "strokeHex": "#61ada0",
+        "dashEnabled": false,
+        "dashAnimate": false,
+        "dashRepeats": 1,
+        "dashLength": 0.9,
+        "dashOverlap": true,
+        "noiseA": true,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0.1,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.05,
+        "name": "Tube",
+        "edgeRemoval": true
+      }
+    },
+    "SimpleWire": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.03,
+        "backgroundHex": "#f2f2f2",
+        "fillHex": "#d2d2d2",
+        "strokeHex": "#000000",
+        "dashEnabled": false,
+        "dashAnimate": false,
+        "dashRepeats": 1,
+        "dashLength": 0.8,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": false,
+        "squeeze": false,
+        "squeezeMin": 0.5,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.05,
+        "name": "Icosphere",
+        "edgeRemoval": false
+      }
+    },
+    "NicerWire": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.03,
+        "backgroundHex": "#f6f6f6",
+        "fillHex": "#e6e6e6",
+        "strokeHex": "#252525",
+        "dashEnabled": false,
+        "dashAnimate": false,
+        "dashRepeats": 1,
+        "dashLength": 0.8,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0.4,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.05,
+        "name": "Torus",
+        "edgeRemoval": true
+      }
+    },
+    "Animated": {
+      "0": {
+        "seeThrough": false,
+        "thickness": 0.02,
+        "backgroundHex": "#fdf1cc",
+        "fillHex": "#c6d6b8",
+        "strokeHex": "#987f69",
+        "dashEnabled": true,
+        "dashAnimate": true,
+        "dashRepeats": 6,
+        "dashLength": 0.6000000000000001,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": false,
+        "squeeze": true,
+        "squeezeMin": 0.2,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.03,
+        "name": "TorusKnot",
+        "edgeRemoval": true
+      }
+    },
+    "FunZone": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.02,
+        "backgroundHex": "#dad6ca",
+        "fillHex": "#1bb0ce",
+        "strokeHex": "#4f8699",
+        "dashEnabled": false,
+        "dashAnimate": false,
+        "dashRepeats": 2,
+        "dashLength": 0.7000000000000001,
+        "dashOverlap": true,
+        "noiseA": true,
+        "noiseB": true,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0.2,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.03,
+        "name": "Icosphere",
+        "edgeRemoval": false
+      }
+    },
+    "Dotted": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.04,
+        "backgroundHex": "#e69472",
+        "fillHex": "#cf7f5e",
+        "strokeHex": "#933333",
+        "dashEnabled": true,
+        "dashAnimate": false,
+        "dashRepeats": 8,
+        "dashLength": 0.5,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0.2,
+        "squeezeMax": 1,
+        "dualStroke": false,
+        "secondThickness": 0.05,
+        "name": "Sphere",
+        "edgeRemoval": true
+      }
+    },
+    "Flower": {
+      "0": {
+        "seeThrough": true,
+        "thickness": 0.09,
+        "backgroundHex": "#edebe6",
+        "fillHex": "#d6e1c7",
+        "strokeHex": "#94c7b6",
+        "dashEnabled": true,
+        "dashAnimate": false,
+        "dashRepeats": 1,
+        "dashLength": 0.8,
+        "dashOverlap": false,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0.2,
+        "squeezeMax": 0,
+        "dualStroke": false,
+        "secondThickness": 0.05,
+        "name": "Icosphere",
+        "edgeRemoval": false
+      }
+    },
+    "Crosses": {
+      "0": {
+        "seeThrough": false,
+        "thickness": 0.01,
+        "backgroundHex": "#a7c5bd",
+        "fillHex": "#e5ddcb",
+        "strokeHex": "#eb7b59",
+        "dashEnabled": true,
+        "dashAnimate": false,
+        "dashRepeats": 1,
+        "dashLength": 0.6000000000000001,
+        "dashOverlap": true,
+        "noiseA": false,
+        "noiseB": false,
+        "insideAltColor": true,
+        "squeeze": true,
+        "squeezeMin": 0,
+        "squeezeMax": 0.5,
+        "dualStroke": false,
+        "secondThickness": 0.03,
+        "name": "TorusKnot",
+        "edgeRemoval": true
+      }
+    }
+  },
+  "folders": {
+    "Shader": {
+      "preset": "Default",
+      "closed": false,
+      "folders": {
+        "Dash": {
+          "preset": "Default",
+          "closed": false,
+          "folders": {}
+        },
+        "Effects": {
+          "preset": "Default",
+          "closed": false,
+          "folders": {}
+        },
+        "Geometry": {
+          "preset": "Default",
+          "closed": false,
+          "folders": {}
+        }
+      }
+    }
+  }
+}
