@@ -1,5 +1,5 @@
 {
-  "preset": "Crosses",
+  "preset": "Sleek",
   "closed": false,
   "remembered": {
     "Sleek": {
@@ -218,24 +218,24 @@
         "edgeRemoval": false
       }
     },
-    "Crosses": {
+    "Tapered": {
       "0": {
         "seeThrough": false,
-        "thickness": 0.01,
+        "thickness": 0.015,
         "backgroundHex": "#a7c5bd",
         "fillHex": "#e5ddcb",
         "strokeHex": "#eb7b59",
         "dashEnabled": true,
         "dashAnimate": false,
         "dashRepeats": 1,
-        "dashLength": 0.6000000000000001,
+        "dashLength": 0.6,
         "dashOverlap": true,
         "noiseA": false,
         "noiseB": false,
         "insideAltColor": true,
         "squeeze": true,
         "squeezeMin": 0,
-        "squeezeMax": 0.5,
+        "squeezeMax": 0.64,
         "dualStroke": false,
         "secondThickness": 0.03,
         "name": "TorusKnot",

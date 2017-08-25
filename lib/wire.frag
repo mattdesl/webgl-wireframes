@@ -31,9 +31,8 @@ uniform vec3 fill;
 
 // This is like
 float aastep (float threshold, float dist) {
-  if (threshold == 0.0 || dist == 0.0) return 0.0;
   float afwidth = fwidth(dist) * 0.5;
-  return 1.0 - smoothstep(threshold - afwidth, threshold + afwidth, dist);
+  return smoothstep(threshold - afwidth, threshold + afwidth, dist);
 }
 
 // This function is not currently used, but it can be useful
@@ -86,11 +85,11 @@ vec4 getStyledWireframe (vec3 barycentric) {
 
     // create the repeating dash pattern
     float pattern = fract((positionAlong + offset) * dashRepeats);
-    computedThickness *= aastep(dashLength, pattern);
+    computedThickness *= 1.0 - aastep(dashLength, pattern);
   }
 
   // compute the anti-aliased stroke edge  
-  float edge = aastep(computedThickness, d);
+  float edge = 1.0 - aastep(computedThickness, d);
 
   // now compute the final color of the mesh
   vec4 outColor = vec4(0.0);
@@ -103,7 +102,7 @@ vec4 getStyledWireframe (vec3 barycentric) {
     vec3 mainStroke = mix(fill, stroke, edge);
     outColor.a = 1.0;
     if (dualStroke) {
-      float inner = aastep(secondThickness, d);
+      float inner = 1.0 - aastep(secondThickness, d);
       vec3 wireColor = mix(fill, stroke, abs(inner - edge));
       outColor.rgb = wireColor;
     } else {
