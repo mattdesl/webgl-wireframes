@@ -1,20 +1,41 @@
 # webgl-wireframes
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+![banner](./screenshots/banner.jpg)
 
-A net magazine WebGL tutorial
+This is the code for a November 2017 net magazine tutorial, _Stylized Wireframe Rendering in WebGL_. Check out the article (when it's released) for more details.
 
-## Install
+## Stylized Wireframe Rendering in WebGL
 
-Use [npm](https://npmjs.com/) to install.
+The code here uses barycentric coordinates to create stylized wireframes in ThreeJS and WebGL. Some features of the code and its shaders include:
 
-```sh
-npm install webgl-wireframes --save
-```
+- Alpha to Coverage for crisp alpha cutouts and depth testing with Multisample Anti-Aliasing
+- Thick and anti-aliased single-pass wireframe rendering
+- Basic support for animated line dashes
+- Inner edge removal to render quads instead of triangles
+- A few other effects, such as noise, tapered lines, dual strokes and backface coloring
+
+## Demo
+
+Click [here]() to see a live demo.
+
+[![demo](./screenshots/screenshot.png)](demo)
 
 ## Usage
 
-[![NPM](https://nodei.co/npm/webgl-wireframes.png)](https://www.npmjs.com/package/webgl-wireframes)
+To build & run this project locally, first clone the repository, then use npm to install and run it:
+
+```sh
+npm install
+npm start
+```
+
+Now open `localhost:9966` to see it in your browser.
+
+To build:
+
+```sh
+npm run build
+```
 
 ## License
 

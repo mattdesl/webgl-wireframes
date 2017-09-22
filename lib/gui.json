@@ -250,12 +250,12 @@
       "folders": {
         "Dash": {
           "preset": "Default",
-          "closed": false,
+          "closed": true,
           "folders": {}
         },
         "Effects": {
           "preset": "Default",
-          "closed": false,
+          "closed": true,
           "folders": {}
         },
         "Geometry": {
