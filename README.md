@@ -16,9 +16,9 @@ The code here uses barycentric coordinates to create stylized wireframes in Thre
 
 ## Demo
 
-Click [here]() to see a live demo.
+Click [here](https://mattdesl.github.io/webgl-wireframes/app/) to see a live demo.
 
-[![demo](./screenshots/screenshot.png)](demo)
+[<img src="./screenshots/screenshot.png" width="75%" />](https://mattdesl.github.io/webgl-wireframes/app/)
 
 ## Usage
 
@@ -36,6 +36,15 @@ To build:
 ```sh
 npm run build
 ```
+
+## Further Reading
+
+The technique here is just one approach to wireframe rendering. You may find these other articles interesting:
+
+- [Easy Wireframes with barycentric coordinates – Florian Bösch](http://codeflow.org/entries/2012/aug/02/easy-wireframe-display-with-barycentric-coordinates/)
+- [Two Methods for Antialiased Wireframe Drawing with Hidden Line Removal](http://dl.acm.org/citation.cfm?id=1921300)
+- [glsl-solid-wireframe – drawing wireframes and grids in a fragment shader by Ricky Reusser](https://github.com/rreusser/glsl-solid-wireframe)
+- [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard)
 
 ## License
 
