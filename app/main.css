@@ -35,6 +35,14 @@ canvas {
   padding: 1.5rem;
 }
 
+.main-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.5rem;
+  font-size: 12px;
+}
+
 .info {
   font-weight: 700;
 }
